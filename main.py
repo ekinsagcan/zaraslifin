@@ -17,7 +17,7 @@ from webdriver_manager.chrome import ChromeDriverManager
 TOKEN = os.getenv("TELEGRAM_TOKEN", "BURAYA_TOKENINI_YAZABILIRSIN")
 # İzin verilen kullanıcı ID'leri (Kendi Telegram ID'ni buraya virgülle ayırarak yaz)
 ALLOWED_USERS = [5952744818, 98765432]
-CHECK_INTERVAL = 300  # Kaç saniyede bir kontrol etsin? (300 saniye = 5 dakika)
+CHECK_INTERVAL = 10  # Kaç saniyede bir kontrol etsin? (300 saniye = 5 dakika)
 
 # Logging
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO)
