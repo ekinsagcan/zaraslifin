@@ -16,7 +16,7 @@ from webdriver_manager.chrome import ChromeDriverManager
 # Token'ı buraya yazabilirsin ama Koyeb'de Environment Variable olarak eklemen daha güvenli.
 TOKEN = os.getenv("TELEGRAM_TOKEN", "BURAYA_TOKENINI_YAZABILIRSIN")
 # İzin verilen kullanıcı ID'leri (Kendi Telegram ID'ni buraya virgülle ayırarak yaz)
-ALLOWED_USERS = os.getenv("ALLOWED_USERS", "BURAYA_TOKENINI_YAZABILIRSIN")
+ALLOWED_USERS = [5952744818, 98765432]
 CHECK_INTERVAL = 300  # Kaç saniyede bir kontrol etsin? (300 saniye = 5 dakika)
 
 # Logging
